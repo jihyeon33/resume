@@ -17,7 +17,10 @@ KM_PROD_CTGRY_INFO
 KM_PROD_CTGRY_RELATION
 KM_PROD_INFO
 
-
+/kos_myolleh_was/src/main/java/com/ktds/webch/myolleh/product/dao/ProductDao.java
+/kos_myolleh_was/src/main/resources/sqlmap/sql/ProductMapper.xml
+<mapper namespace="com.ktds.webch.myolleh.product.dao.ProductDao">
+<select id="getReqTvDetailInfo" resultType="com.ktds.webch.myolleh.product.dto.TvDetailDBResDto" parameterType="com.ktds.webch.myolleh.product.dto.TvDetailDBReqDto">
 FROM KM_PROD_CTGRY_INFO A
 	, KM_PROD_CTGRY_RELATION B
 	, KM_PROD_INFO C
