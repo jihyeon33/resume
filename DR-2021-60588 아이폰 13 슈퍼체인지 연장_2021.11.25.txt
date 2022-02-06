@@ -1,0 +1,12 @@
+DR-2021-60588 아이폰 13 슈퍼체인지 연장 _ 2021.11.25
+
+---DB
+
+JUMPUP_JOIN_PROD
+JUMPUP_JOIN_PROD_PSBL
+JUMPUP_PROD_DETAIL_LINK
+
+KT 아이폰 13 일반형 : 96(신규추가, 기존:92)
+KT 아이폰 13 자급제형: 93
+
+---수정자원
