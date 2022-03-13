@@ -1,0 +1,19 @@
+---integration----
+socall.java
+socallimpl.java
+---wsclient------
+requestdto
+responsedto
+inputdto
+outputdto
+so
+soimpl
+----------------
+esbservice는공통
+===========
+controller.java
+...service.method 호출, service에는 메소드 여러개-> 
+service.method
+메소드 하나에는 wsdlcall 한개씩, inputdto에 값을 담아 requestdto에 세팅 requestdto를 esbservice에 태움->
+socallimpl.java->
+service.method에서 return 받은 esbservice.getresponse
